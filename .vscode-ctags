@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+INCLUDE_VERMAGIC	src/char_module/char.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+INCLUDE_VERMAGIC	src/hello1/hello.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+INCLUDE_VERMAGIC	src/ioctl/chr_ioctl.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+INCLUDE_VERMAGIC	src/procfs/procfs.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+KDIR	src/ioctl/Makefile	/^KDIR = \/lib\/modules\/$(shell uname -r)\/build $/;"	m
+KDIR	src/procfs/Makefile	/^KDIR = \/lib\/modules\/$(shell uname -r)\/build $/;"	m
+PWD	src/char_module/Makefile	/^PWD := $(CURDIR) $/;"	m
+PWD	src/hello1/Makefile	/^PWD := $(CURDIR) $/;"	m
+RD_DATA	src/ioctl/chr_ioctl.c	/^#define RD_DATA /;"	d	file:
+RD_DATA	src/ioctl/chr_ioctl_test.c	/^#define RD_DATA /;"	d	file:
+RD_DATA	src/procfs/procfs.c	/^#define RD_DATA /;"	d	file:
+WR_DATA	src/ioctl/chr_ioctl.c	/^#define WR_DATA /;"	d	file:
+WR_DATA	src/ioctl/chr_ioctl_test.c	/^#define WR_DATA /;"	d	file:
+WR_DATA	src/procfs/procfs.c	/^#define WR_DATA /;"	d	file:
+____versions	src/char_module/char.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+____versions	src/hello1/hello.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+____versions	src/ioctl/chr_ioctl.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+____versions	src/procfs/procfs.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+all	src/Module_stacking/Makefile	/^all:$/;"	t
+all	src/Module_stacking/modprobe/Makefile	/^all:$/;"	t
+all	src/char_module/Makefile	/^all: $/;"	t
+all	src/hello1/Makefile	/^all: $/;"	t
+all	src/ioctl/Makefile	/^all:$/;"	t
+all	src/procfs/Makefile	/^all:$/;"	t
+chr_array	src/procfs/procfs.c	/^char chr_array[40]="Welcome to Device Drivers Lab\\n";$/;"	v	typeref:typename:char[40]
+chr_driver_exit	src/char_module/char.c	/^void __exit chr_driver_exit(void)$/;"	f	typeref:typename:void __exit
+chr_driver_exit	src/ioctl/chr_ioctl.c	/^void __exit chr_driver_exit(void)$/;"	f	typeref:typename:void __exit
+chr_driver_exit	src/procfs/procfs.c	/^void __exit chr_driver_exit(void)$/;"	f	typeref:typename:void __exit
+chr_driver_init	src/char_module/char.c	/^static int __init chr_driver_init(void)$/;"	f	typeref:typename:int __init	file:
+chr_driver_init	src/ioctl/chr_ioctl.c	/^static int __init chr_driver_init(void)$/;"	f	typeref:typename:int __init	file:
+chr_driver_init	src/procfs/procfs.c	/^static int __init chr_driver_init(void)$/;"	f	typeref:typename:int __init	file:
+clean	src/Module_stacking/Makefile	/^clean:$/;"	t
+clean	src/Module_stacking/modprobe/Makefile	/^clean:$/;"	t
+clean	src/char_module/Makefile	/^clean: $/;"	t
+clean	src/hello1/Makefile	/^clean: $/;"	t
+clean	src/ioctl/Makefile	/^clean:$/;"	t
+clean	src/procfs/Makefile	/^clean:$/;"	t
+cleanup_module	src/hello1/hello.c	/^void cleanup_module(void) $/;"	f	typeref:typename:void
+dev	src/char_module/char.c	/^dev_t dev = 0;$/;"	v	typeref:typename:dev_t
+dev	src/ioctl/chr_ioctl.c	/^dev_t dev = 0;$/;"	v	typeref:typename:dev_t
+dev	src/procfs/procfs.c	/^dev_t dev = 0;$/;"	v	typeref:typename:dev_t
+dev_class	src/char_module/char.c	/^static struct class *dev_class;$/;"	v	typeref:struct:class *	file:
+dev_class	src/ioctl/chr_ioctl.c	/^static struct class *dev_class;$/;"	v	typeref:struct:class *	file:
+dev_class	src/procfs/procfs.c	/^static struct class *dev_class;$/;"	v	typeref:struct:class *	file:
+fops	src/char_module/char.c	/^static struct file_operations fops=$/;"	v	typeref:struct:file_operations	file:
+fops	src/ioctl/chr_ioctl.c	/^static struct file_operations fops=$/;"	v	typeref:struct:file_operations	file:
+fops	src/procfs/procfs.c	/^static struct file_operations fops=$/;"	v	typeref:struct:file_operations	file:
+init_module	src/hello1/hello.c	/^int init_module(void) $/;"	f	typeref:typename:int
+kernel_buffer	src/char_module/char.c	/^uint8_t *kernel_buffer;$/;"	v	typeref:typename:uint8_t *
+kernel_buffer	src/ioctl/chr_ioctl.c	/^uint8_t *kernel_buffer;$/;"	v	typeref:typename:uint8_t *
+kernel_buffer	src/procfs/procfs.c	/^uint8_t *kernel_buffer;$/;"	v	typeref:typename:uint8_t *
+length	src/procfs/procfs.c	/^static int length = 0;$/;"	v	typeref:typename:int	file:
+main	src/char_module/chartest.c	/^int main()$/;"	f	typeref:typename:int
+main	src/ioctl/chr_ioctl_test.c	/^int main()$/;"	f	typeref:typename:int
+main	src/procfs/procfstest.c	/^int main()$/;"	f	typeref:typename:int
+mem_size	src/char_module/char.c	/^#define mem_size /;"	d	file:
+mem_size	src/ioctl/chr_ioctl.c	/^#define mem_size /;"	d	file:
+mem_size	src/procfs/procfs.c	/^#define mem_size /;"	d	file:
+module1_exit	src/Module_stacking/modprobe/module1.c	/^static void module1_exit(void)$/;"	f	typeref:typename:void	file:
+module1_init	src/Module_stacking/modprobe/module1.c	/^static int module1_init(void)$/;"	f	typeref:typename:int	file:
+module2_exit	src/Module_stacking/modprobe/module2.c	/^static void module2_exit(void)$/;"	f	typeref:typename:void	file:
+module2_init	src/Module_stacking/modprobe/module2.c	/^static int module2_init(void)$/;"	f	typeref:typename:int	file:
+my_cdev	src/char_module/char.c	/^static struct cdev my_cdev;$/;"	v	typeref:struct:cdev	file:
+my_cdev	src/ioctl/chr_ioctl.c	/^static struct cdev my_cdev;$/;"	v	typeref:struct:cdev	file:
+my_cdev	src/procfs/procfs.c	/^static struct cdev my_cdev;$/;"	v	typeref:struct:cdev	file:
+my_ioctl	src/ioctl/chr_ioctl.c	/^static long my_ioctl(struct file *file,unsigned int cmd, unsigned long arg)$/;"	f	typeref:typename:long	file:
+my_ioctl	src/procfs/procfs.c	/^static long my_ioctl(struct file *file,unsigned int cmd, unsigned long arg)$/;"	f	typeref:typename:long	file:
+my_open	src/char_module/char.c	/^static int my_open(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_open	src/ioctl/chr_ioctl.c	/^static int my_open(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_open	src/procfs/procfs.c	/^static int my_open(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_read	src/char_module/char.c	/^static ssize_t my_read(struct file *filp, char __user *buf, size_t  len, loff_t *loff)$/;"	f	typeref:typename:ssize_t	file:
+my_read	src/ioctl/chr_ioctl.c	/^static ssize_t my_read(struct file *filp, char __user *buf, size_t  len, loff_t *loff)$/;"	f	typeref:typename:ssize_t	file:
+my_read	src/procfs/procfs.c	/^static ssize_t my_read(struct file *filp, char __user *buf, size_t  len, loff_t *loff)$/;"	f	typeref:typename:ssize_t	file:
+my_release	src/char_module/char.c	/^static int my_release(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_release	src/ioctl/chr_ioctl.c	/^static int my_release(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_release	src/procfs/procfs.c	/^static int my_release(struct inode *inode, struct file *file)$/;"	f	typeref:typename:int	file:
+my_write	src/char_module/char.c	/^static ssize_t my_write(struct file *filp, const char __user *buf, size_t len, loff_t  *loff)$/;"	f	typeref:typename:ssize_t	file:
+my_write	src/ioctl/chr_ioctl.c	/^static ssize_t my_write(struct file *filp, const char __user *buf, size_t len, loff_t  *loff)$/;"	f	typeref:typename:ssize_t	file:
+my_write	src/procfs/procfs.c	/^static ssize_t my_write(struct file *filp, const char __user *buf, size_t len, loff_t  *loff)$/;"	f	typeref:typename:ssize_t	file:
+myadd	src/Module_stacking/modprobe/module1.c	/^int myadd(int a, int b)$/;"	f	typeref:typename:int
+obj-m	src/Module_stacking/Makefile	/^obj-m := symbol.o$/;"	m
+open_proc	src/procfs/procfs.c	/^static int open_proc(struct inode *inode, struct file *file){$/;"	f	typeref:typename:int	file:
+print_jiffies	src/Module_stacking/symbol.c	/^void print_jiffies(void)$/;"	f	typeref:typename:void
+proc_fops	src/procfs/procfs.c	/^static struct proc_ops proc_fops=$/;"	v	typeref:struct:proc_ops	file:
+read_buf	src/char_module/chartest.c	/^int8_t read_buf[1024];$/;"	v	typeref:typename:int8_t[1024]
+read_buf	src/procfs/procfstest.c	/^int8_t read_buf[1024];$/;"	v	typeref:typename:int8_t[1024]
+read_proc	src/procfs/procfs.c	/^static ssize_t read_proc(struct file *filp, char __user *buf, size_t len, loff_t *off){$/;"	f	typeref:typename:ssize_t	file:
+release_proc	src/procfs/procfs.c	/^static int release_proc(struct inode *inode, struct file *file){$/;"	f	typeref:typename:int	file:
+test_export_exit	src/Module_stacking/symbol.c	/^static void test_export_exit(void)$/;"	f	typeref:typename:void	file:
+test_export_init	src/Module_stacking/symbol.c	/^static int test_export_init(void)$/;"	f	typeref:typename:int	file:
+val	src/ioctl/chr_ioctl.c	/^int32_t val=0;$/;"	v	typeref:typename:int32_t
+val	src/procfs/procfs.c	/^int32_t val=0;$/;"	v	typeref:typename:int32_t
+write_buf	src/char_module/chartest.c	/^int8_t write_buf[1024];$/;"	v	typeref:typename:int8_t[1024]
+write_buf	src/procfs/procfstest.c	/^int8_t write_buf[1024];$/;"	v	typeref:typename:int8_t[1024]
+write_proc	src/procfs/procfs.c	/^static ssize_t write_proc(struct file *filp, const char *buf, size_t len, loff_t *off){$/;"	f	typeref:typename:ssize_t	file:
