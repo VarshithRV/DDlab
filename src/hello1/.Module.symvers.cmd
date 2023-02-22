@@ -1,0 +1,1 @@
+cmd_/home/barracuda/workspace/src/hello1/Module.symvers := sed 's/\.ko$$/\.o/' /home/barracuda/workspace/src/hello1/modules.order | scripts/mod/modpost -m -a  -o /home/barracuda/workspace/src/hello1/Module.symvers -e -i Module.symvers   -T -

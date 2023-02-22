@@ -1,0 +1,1 @@
+cmd_/home/barracuda/workspace/src/ioctl/chr_ioctl.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/barracuda/workspace/src/ioctl/chr_ioctl.ko /home/barracuda/workspace/src/ioctl/chr_ioctl.o /home/barracuda/workspace/src/ioctl/chr_ioctl.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/barracuda/workspace/src/hello1/hello.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/barracuda/workspace/src/hello1/hello.ko /home/barracuda/workspace/src/hello1/hello.o /home/barracuda/workspace/src/hello1/hello.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/barracuda/workspace/src/char_module/char.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/barracuda/workspace/src/char_module/char.ko /home/barracuda/workspace/src/char_module/char.o /home/barracuda/workspace/src/char_module/char.mod.o;  true

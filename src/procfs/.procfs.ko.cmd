@@ -1,0 +1,1 @@
+cmd_/home/barracuda/workspace/src/procfs/procfs.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/barracuda/workspace/src/procfs/procfs.ko /home/barracuda/workspace/src/procfs/procfs.o /home/barracuda/workspace/src/procfs/procfs.mod.o;  true
